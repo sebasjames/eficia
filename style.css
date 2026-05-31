@@ -420,3 +420,8 @@
       border: none !important;
       animation: ai-shimmer 3s linear infinite !important;
     }
+
+    /* Make navbar elements white when scrolled in light mode to contrast the dark background */
+    [data-theme="light"] nav.scrolled .nav-name { color: #FFFFFF; }
+    [data-theme="light"] nav.scrolled .theme-toggle { color: #FFFFFF; background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.2); }
+    [data-theme="light"] nav.scrolled .btn-secondary { color: #FFFFFF !important; background: rgba(255, 255, 255, 0.1) !important; border-color: rgba(255, 255, 255, 0.2) !important; }
