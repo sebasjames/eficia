@@ -438,7 +438,8 @@
         <p style="color: var(--text-dim); margin-bottom: 32px; font-size: 15px;">Déjanos tus datos y descubre el poder
           de la automatización inteligente.</p>
 
-        <form id="contactForm" name="contact" data-netlify="true" onsubmit="submitContactForm(event)">
+        <form id="contactForm" name="contact" method="POST" netlify data-netlify="true" onsubmit="submitContactForm(event)">
+          <input type="hidden" name="form-name" value="contact" />
           <div class="input-group">
             <input type="text" id="mName" name="nombre" placeholder="Nombre completo" required>
           </div>

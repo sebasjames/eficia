@@ -203,7 +203,6 @@ window.submitContactForm = function(e) {
   e.preventDefault();
   const form = e.target;
   const formData = new FormData(form);
-  formData.append('form-name', form.getAttribute('name'));
 
   fetch('/', {
     method: 'POST',
