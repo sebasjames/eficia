@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eficia Demos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #ffffff;
+      color: #333333;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .cards-container {
+      display: flex;
+      gap: 2rem;
+      max-width: 1200px;
+      width: 100%;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: #f9f9f9;
+      border: 1px solid #e0e0e0;
+      border-radius: 12px;
+      padding: 2rem;
+      width: 300px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+    .card h3 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #111;
+    }
+    .card p {
+      font-size: 0.95rem;
+      color: #555;
+      line-height: 1.5;
+    }
+    .card button {
+      margin-top: auto;
+      padding: 0.75rem 1rem;
+      background-color: #111;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    .card button:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="cards-container">
+    <div class="card">
+      <h3>Demo 1</h3>
+      <p>Explora cómo nuestra IA automatiza las respuestas de servicio al cliente en tiempo real.</p>
+      <button>Ver Demo</button>
+    </div>
+    <div class="card">
+      <h3>Demo 2</h3>
+      <p>Descubre la integración con sistemas ERP para la gestión de inventarios y facturación.</p>
+      <button>Ver Demo</button>
+    </div>
+    <div class="card">
+      <h3>Demo 3</h3>
+      <p>Analiza el comportamiento de ventas y proyecciones con nuestro modelo predictivo.</p>
+      <button>Ver Demo</button>
+    </div>
+  </div>
+</body>
+</html>

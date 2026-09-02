@@ -1,0 +1,1 @@
+import{r as o}from"./index-hKcJHR5Q.js";function u(e,r=!0){o.useEffect(()=>{if(!r)return;const n=t=>{t.key==="Escape"&&e()};return window.addEventListener("keydown",n),()=>window.removeEventListener("keydown",n)},[e,r])}export{u};
