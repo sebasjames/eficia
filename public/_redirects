@@ -1,2 +1,3 @@
+/demo          /demos/erp/             301
+/demo/*        /demos/erp/             301
 /demos/erp/*   /demos/erp/index.html   200
-
