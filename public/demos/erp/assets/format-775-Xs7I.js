@@ -1,0 +1,1 @@
+const P=(r,l=!1)=>{if(r==null||isNaN(r))return l?"$ 0,00 COP":"$ 0 COP";const n=r<0,a=Math.abs(r);let s,i="";if(l){const t=a.toFixed(2).split(".");s=t[0],i=","+t[1]}else s=Math.round(a).toString();let e="",o=0;const f=s.split("").reverse();for(let t=0;t<f.length;t++)t>0&&t%3===0&&(o++,o%2===0?e="´"+e:e="."+e),e=f[t]+e;return`${n?"-":""}$ ${e}${i} COP`};export{P as f};
