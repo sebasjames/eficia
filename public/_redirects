@@ -1,3 +1,9 @@
 /demo          /demos/erp/             301
 /demo/*        /demos/erp/             301
 /demos/erp/*   /demos/erp/index.html   200
+
+/inruzz        /demos/inruzz/          301
+/inruzz/*      /demos/inruzz/          301
+/demos/inruzz  /demos/inruzz/          301
+/demos/inruzz/* /demos/inruzz/index.html 200
+
